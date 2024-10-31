@@ -2,6 +2,7 @@
 import React from "react";
 import clsx from "clsx";
 import Particles from "../ui/particles";
+import Navbar from "@/components/custom/nav"
 // import { MoveDown, SquareArrowOutUpRight } from "lucide_react"
 
 export default function FUIDarkHeroSection() {
@@ -12,6 +13,7 @@ export default function FUIDarkHeroSection() {
 
   return (
     <div className="relative min-h-[60vh]">
+      <Navbar/>
        <Particles
         className="absolute inset-0"
         quantity={100}

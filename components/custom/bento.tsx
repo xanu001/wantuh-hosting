@@ -9,11 +9,18 @@ import RetroGrid from "../ui/retro-grid";
 export default function FUIBentoGridDark() {
   return (
     <div className="pt-32 container mx-auto ">
+             <Particles
+        className="absolute inset-0"
+        quantity={100}
+        ease={80}
+        refresh
+      />
       <h1 className="font-geistMono tracking-tight text-3xl md:text-5xl ">
       <HyperText
       className=""
       text="features"
     />
+    
       </h1>
       
       <p className="max-w-3xl text-2xl/8 font-medium tracking-tight mt-2">
@@ -21,9 +28,9 @@ export default function FUIBentoGridDark() {
       </p>
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2 ">
         <BentoCard
-          eyebrow="Powerful servers"
-          title="Get perfect clarity"
-          description="PerkAI uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          eyebrow="Next generation"
+          title="Powerful Servers"
+          description="A powerful server for your bot will make all the difference. We strive to beat competitiors, thats why we are cheaper and provide better service."
           graphic={
             <div className="absolute inset-0 bg-[url(https://framerusercontent.com/images/ghyfFEStl6BNusZl0ZQd5r7JpM.png)] object-fill" />
           }
