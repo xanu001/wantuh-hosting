@@ -15,8 +15,49 @@
   }
 }
 
+.glass-effect {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.glow {
+  filter: drop-shadow(0 0 0.75rem rgba(168, 85, 247, 0.4));
+}
+
+.grid-background {
+  background-image: radial-gradient(rgba(168, 85, 247, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+  backdrop-filter: blur(4px);
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+  }
+  .dark {
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }

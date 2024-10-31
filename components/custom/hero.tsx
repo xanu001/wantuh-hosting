@@ -38,14 +38,15 @@ export default function FUIDarkHeroSection() {
             </p>
           </div>
           <div className="flex gap-6">
-          <button className=" gap-2 mt-4 w-full md:w-40 font-geist tracking-tighter text-center rounded-md text-md bg-gradient-to-br from-zinc-400 to-zinc-700 px-4 py-2 text-lg text-zinc-50 ring-2 ring-zinc-500/50 ring-offset-2 ring-offset-zinc-950 transition-all hover:scale-[1.02] hover:ring-transparent active:scale-[0.98] active:ring-zinc-500/70 flex items-center justify-center ">
-            Get Started
-            {/* <MoveDown size={16}/> */}
-          </button>
-          <button className=" gap-2 mt-4 w-full md:w-40 font-geist tracking-tighter text-center rounded-md text-md bg-gradient-to-br from-blue-400 to-blue-1200 px-4 py-2 text-lg text-zinc-50 ring-2 ring-zinc-500/50 ring-offset-2 ring-offset-zinc-950 transition-all hover:scale-[1.02] hover:ring-transparent active:scale-[0.98] active:ring-zinc-500/70 flex items-center justify-center ">
-            Contact us
-            {/* <SquareArrowOutUpRight size={16}/> */}
-          </button>
+          <button className="rounded-lg gap-2 mt-4 w-full md:w-40 font-geist tracking-tighter text-center text-md bg-gradient-to-br from-zinc-900 to-zinc-700 px-4 py-2 text-lg text-zinc-50 ring-2 ring-zinc-500/50 ring-offset-2 ring-offset-zinc-950 transition-all hover:scale-[1.02] hover:ring-transparent active:scale-[0.98] active:ring-zinc-500/70 flex items-center justify-center ">
+  Get Started
+  {/* <MoveDown size={16}/> */}
+</button>
+<button className="rounded-lg gap-2 mt-4 w-full md:w-40 font-geist tracking-tighter text-center text-md bg-gradient-to-br from-blue-400 to-blue-1200 px-4 py-2 text-lg text-zinc-50 ring-2 ring-zinc-500/50 ring-offset-2 ring-offset-blue-950 transition-all hover:scale-[1.02] hover:ring-transparent active:scale-[0.98] active:ring-zinc-100/70 flex items-center justify-center ">
+  Contact us
+  {/* <SquareArrowOutUpRight size={16}/> */}
+</button>
+
           </div>
         
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">

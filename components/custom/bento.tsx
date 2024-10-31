@@ -8,18 +8,18 @@ import RetroGrid from "../ui/retro-grid";
 
 export default function FUIBentoGridDark() {
   return (
-    <div className="pt-32 container mx-auto">
-      <h1 className="font-geistMono tracking-tight text-3xl md:text-5xl">
+    <div className="pt-32 container mx-auto ">
+      <h1 className="font-geistMono tracking-tight text-3xl md:text-5xl ">
       <HyperText
       className=""
-      text="about us"
+      text="features"
     />
       </h1>
       
       <p className="max-w-3xl text-2xl/8 font-medium tracking-tight mt-2">
         
       </p>
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2 ">
         <BentoCard
           eyebrow="Powerful servers"
           title="Get perfect clarity"
